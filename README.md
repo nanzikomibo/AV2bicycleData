@@ -2,6 +2,8 @@
 
 This repository contains CSV datasets and Python scripts for processing leader-cyclist interaction trajectories and reproducing the tabular statistical analyses in the associated study. It deliberately excludes all figure-generation code and image outputs.
 
+The complete CSV archive is available from Zenodo: [10.5281/zenodo.21914938](https://doi.org/10.5281/zenodo.21914938).
+
 ## Repository layout
 
 - `data/raw/`: repository-provided CSV inputs, including AV2-derived leader-follower trajectories and benchmark inputs. The complete upstream AV2 scenarios are separate Parquet files.
@@ -27,6 +29,10 @@ Run the release checks with:
 ```bash
 python -m pytest tests -q
 ```
+
+## Complete CSV archive
+
+The complete raw, processed, and derived CSV archive is published on Zenodo: [10.5281/zenodo.21914938](https://doi.org/10.5281/zenodo.21914938). Download and extract the archive into the repository root so that the `data/raw/`, `data/processed/`, and `data/derived/` directory structure is retained.
 
 ## Official AV2 source data
 
